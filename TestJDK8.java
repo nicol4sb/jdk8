@@ -7,5 +7,7 @@ public class TestJDK8 {
         // read all non hidden files
         Arrays.stream(new File(".").listFiles(f -> !f.isHidden())).forEach(file -> System.out.println(file));
 
+        
+
     }
 }
